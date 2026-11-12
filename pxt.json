@@ -1,0 +1,34 @@
+{
+    "name": "智能小",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "radio-broadcast": "*",
+        "makebit": "github:zhuning239/makebit_M#1b0f3e92c9c1c72539a36bc1303be42b12e025d7",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.5.1",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable9.0",
+        "tag": "v9.0.12",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/49d8b2a09658f4c68bdde0d80757f02138c5d913",
+        "target": "9.0.12",
+        "pxt": "13.0.9",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
